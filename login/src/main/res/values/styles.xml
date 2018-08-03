@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="loginAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorAccent">#3F51B5</item>
+
+
+    </style>
+
+    <!-- 解决应用第一次启动白屏问题
+
+    <item name="android:windowAnimationStyle">@style/fade</item>
+
+
+     首先我们可以给我们要启动的欢迎界面设置一个透明的主题，在用户打开应用的时候，并不显示任何View，
+     程序可以借此机会加载我们的背景图片，待图片加载完毕之后，用户就看见了一个没有间断的画面，毫无违和感
+     原理加载透明背景图片
+
+     <item name="android:windowIsTranslucent">true</item>
+     -->
+
+
+    <style name="StartActivityTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorAccent">#2196F3</item>
+
+    </style>
+
+
+    android:activityOpenEnterAnimation 一个activity创建进入的效果。
+
+    android:activityOpenExitAnimation    一个activity还没有finish()下退出效果, 比如有俩个activity A与B 首先启动A 然后再启动B 那么A还没有finish()  这时A的退出效果。
+
+    android:activityCloseEnterAnimation 表示上一个activity返回进入效果 比如有俩个activity A与B  B在最上面，B退出(finish)后 A重新进入的效果。
+
+    android:activityCloseExitAnimation    表示的是activity finish()之后的效果 比如有俩个activity A与B B退出后会被finish() 那么B的退出效果在这定义。
+
+
+
+    <style name="fade" parent="@android:style/Animation.Translucent">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_right_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_left_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_left_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_right_exit</item>
+    </style>
+
+
+
+
+
+
+
+
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="android:windowBackground">@color/primary</item>
+
+        <item name="colorControlNormal">@color/iron</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="android:textColorHint">@color/iron</item>
+
+        <item name="colorButtonNormal">@color/primary_darker</item>
+        <item name="android:colorButtonNormal">@color/primary_darker</item>
+    </style>
+
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/iron</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+</resources>

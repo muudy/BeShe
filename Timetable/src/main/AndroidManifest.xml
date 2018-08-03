@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hihuyang.kb.timetable">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        >
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".ImportSheduleActivity"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".NewDeleteAllClass"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".myscore.ScoreLoginActivity"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".myscore.ScoreActivityAttimetable"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".ClassInfoActivity"
+            android:label="@string/title_activity_class_info"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AboutAppActivity">
+            <intent-filter>
+                <action android:name="com.hihuyang.kb.timetable.activities.AboutAppActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SetAccountActivity"
+            android:label="@string/account_settings" />
+        <activity
+            android:name=".AddCustomClassActivity"
+            android:label="@string/AddNewClass" />
+        <activity android:name=".ModifyClassActivity">
+
+        </activity>
+    </application>
+
+</manifest>

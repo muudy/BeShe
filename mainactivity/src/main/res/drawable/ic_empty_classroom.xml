@@ -1,0 +1,9 @@
+<vector android:height="24dp" android:viewportHeight="1024.0"
+    android:viewportWidth="1027.0" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/discover_ic_color_1" android:pathData="M511.8,0a30.2,30.2 0,0 0,-30.2 30.2v60a30.2,30.2 0,0 0,60.4 0V33.1A33.1,33.1 0,0 0,511.8 0z"/>
+    <path android:fillColor="@color/discover_ic_light_color_1" android:pathData="M391.4,603.2H30.3a30.2,30.2 0,0 0,-30.2 30.2v360.4a29.8,29.8 0,0 0,30.2 29.8h361.2a30.6,30.6 0,0 0,30.2 -29.8V633.4a30.6,30.6 0,0 0,-30.2 -30.2z"/>
+    <path android:fillColor="@color/discover_ic_color_1" android:pathData="M511.8,603.2a30.2,30.2 0,0 0,-30.2 30.2v360.4a30.2,30.2 0,0 0,60.4 0V633.4a30.6,30.6 0,0 0,-30.2 -30.2zM33.2,483.3a30.2,30.2 0,1 0,0 62.1h57.1a28.9,28.9 0,0 0,21.4 -8.8,29.8 29.8,0 0,0 -21.4,-51.2z"/>
+    <path android:fillColor="@color/discover_ic_light_color_1" android:pathData="M632.2,423.3h361.2a30.2,30.2 0,0 0,30.2 -30.2V33.1a30.2,30.2 0,0 0,-30.2 -30.2h-361.2a30.2,30.2 0,0 0,-30.2 30.2v359.9a28.5,28.5 0,0 0,30.2 30.2z"/>
+    <path android:fillColor="@color/discover_ic_color_1" android:pathData="M511.8,183.3a29.8,29.8 0,0 0,-30.2 29.8v270.2H209.8a30.6,30.6 0,0 0,-30.2 30.2A29.8,29.8 0,0 0,209.8 545.4h302a29.4,29.4 0,0 0,21.4 -8.4,31.5 31.5,0 0,0 8.8,-21.4V213.1a30.6,30.6 0,0 0,-30.2 -29.8zM632.2,545.4h361.2a30.2,30.2 0,1 0,0 -60h-361.2a31,31 0,0 0,-21.4 8.8,31.5 31.5,0 0,0 -8.8,21.4 28.1,28.1 0,0 0,30.2 29.8z"/>
+    <path android:fillColor="@color/discover_ic_light_color_1" android:pathData="M30.3,423.3h361.2a30.2,30.2 0,0 0,30.2 -30.2V33.1a30.2,30.2 0,0 0,-30.2 -30.2H30.3A30.2,30.2 0,0 0,0.1 33.1v359.9a28.5,28.5 0,0 0,30.2 30.2zM993.4,603.2h-361.2a31,31 0,0 0,-21.4 8.8,29.8 29.8,0 0,0 -8.8,21.4v360.4a29.8,29.8 0,0 0,30.2 29.8h361.2a30.6,30.6 0,0 0,30.2 -29.8V633.4a28.5,28.5 0,0 0,-30.2 -30.2z"/>
+</vector>

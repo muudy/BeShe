@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BeShe.iml" filepath="$PROJECT_DIR$/BeShe.iml" />
+      <module fileurl="file://C:\Users\ME\Desktop\Bishe1\BeShe\utils\BeShe-utils.iml" filepath="C:\Users\ME\Desktop\Bishe1\BeShe\utils\BeShe-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Timetable/Timetable.iml" filepath="$PROJECT_DIR$/Timetable/Timetable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lsettingviewlibrary/lsettingviewlibrary.iml" filepath="$PROJECT_DIR$/lsettingviewlibrary/lsettingviewlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mainactivity/mainactivity.iml" filepath="$PROJECT_DIR$/mainactivity/mainactivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
+    </modules>
+  </component>
+</project>

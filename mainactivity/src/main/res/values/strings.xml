@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">my</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="softwareintroduction">
+\n
+        <font size="19"> 这款软件是我做的一款毕业设计</font> \n
+
+
+        <font size="19">
+有如下功能： \n
+
+        1.成绩查询： 方便快捷地查询成绩。 \n
+        2.课程表：  方便快捷地查询课程表。 \n
+        3.校内新闻  主要是教务处新闻，\n &#160;&#160;未来可能会扩充到学校新闻。\n
+        4.校车表：  提供校车时刻图。 \n
+        5.登录注册功能。 \n
+\n
+ 待完成功能：\n
+        1.评教，未来可能会有评教功能。\n
+        2.英语四六级查询\n
+        3.一卡通查询\n
+
+</font>
+
+    </string>
+
+
+    <string name="opensource">
+\n
+        <font size="19" color="#ff66cc"> &#160;使用到以下开源框架及软件</font> \n
+
+        <font size="19">
+
+        1.注解框架 \n
+        butterknife :    \n
+            <font color="#329bff">"com.jakewharton:butterknife:7.0.1" </font>  \n
+        2.okhttp : \n
+
+<font color="#329bff">"com.squareup.okhttp3:okhttp:3.3.1" </font>  \n
+          3.gson : \n
+            <font color="#329bff">"com.google.code.gson:gson:2.6.2" </font>  \n
+
+            4.jsoup : \n
+            <font color="#329bff">"org.jsoup:jsoup:1.9.2" </font>  \n
+
+            5.TimeTable : \n
+            <font color="#329bff">"https://github.com/LakeYang/WUST-Class-Schedule-App" </font>  \n
+
+     6.BmobSMS_V1 : \n
+   <font color="#329bff">"bmob-sms-1.0.1.jar" </font>  \n
+
+            7.MaterialSpinner : \n
+   <font color="#329bff">"https://github.com/MaterialSpinner" </font>  \n
+
+        8.LSettingView \n
+             设置界面条目封装，同时包含：\n
+             ①设置左侧图标\n
+             ②设置左侧文字\n
+             ③设置右侧图标\n
+             ④设置右侧图标是否显示\n
+
+
+     <font color="#329bff">"com.leon:lsettingviewlibrary:1.7.0" </font>
+
+</font>
+
+</string>
+
+    <string name="aboutme">
+\n
+    <font size="19" color="#46a3ff">
+&#160;&#160;
+       自从上大学起，一直想做一款关于学校的软件,但是做一个什么样形式的软件心中一直没有计划
+        回想自己在武汉科技大学的四年，关于学习的可能学的比较多、比较杂
+        在大四秋招的时候，辛苦地找实习，恰好找了一家Android实习工作
+        坦然，在企业里学习了很多在学校里学习不到的知识，
+        再临近毕业设计了，我就计划做一款关于学校的Android App吧
+        在企业实习的时候我就开始做了，
+        软件的三大主体功能就是教务处新闻网、查询课程表和查询成绩表
+        其它就是一些小功能和附加功能,这款软件算是我上大学所学Android知识的一次总结吧
+        \n
+  @user miaoxinyu create on 2017/12/11.\n
+  @date finshed on 2018/5/18\n
+  @github \n{@link https://github.com/muudy}
+
+
+
+
+
+
+        </font>
+
+
+
+        </string>
+
+</resources>
+
+
+    <!--整理学习\n
+<b>bold加粗</b>c
+<b><big>天气不错big</big></b>
+<font size="41"> 41号字体效果</font> \n
+<font size="21"> 21号字体效果</font> \n
+<font size="8"> 5号字体效果</font> \n
+<font size="7"> 7号字体效果</font> \n
+<font size="6"> 6号字体效果</font> \n
+<font size="5"> 5号字体效果</font> \n
+<font size="4"> 4号字体效果</font> \n
+<font size="3"> 3号字体效果</font> \n
+<font size="2"> 2号字体效果</font> \n
+<h4>四号标题字 </h4>
+<font color="ffffff">ffffff</font>
+<font color="white">White</font>-->

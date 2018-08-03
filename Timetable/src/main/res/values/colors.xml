@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="mybule">#2196F3</color> <!--道奇蓝 -->
+
+
+    <color name="white">#FFFFFF</color> <!--白色 -->
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#FF5991</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorClassTime">#AAAAAA</color>
+    <color name="colorWeekdayNormal">#CCCCCC</color>
+    <color name="colorWeekdayActive">#99CCFF</color>
+    <color name="colorSelectActive">#99CCFF</color>
+    <color name="colorSelectNormal">#CCCCCC</color>
+</resources>

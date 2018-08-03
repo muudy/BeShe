@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+
+//apply plugin: 'com.android.library'
+
+android {
+
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    //resourcePrefix "login_"
+
+    defaultConfig {
+
+        applicationId "com.xinyu.beshe"
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        //取moduleName
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
+    }
+
+    //添加部分,butterknife报错
+    defaultConfig {
+        //添加如下配置就OK了
+        javaCompileOptions { annotationProcessorOptions { includeCompileClasspath = true } }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation rootProject.ext.dependencies.constraint
+    implementation rootProject.ext.dependencies.design
+
+    //注解
+    implementation rootProject.ext.dependencies.butterknife
+
+
+
+    //阿里框架
+    implementation rootProject.ext.dependencies.arouterapi
+    implementation rootProject.ext.dependencies.aroutercompiler
+    //app要依赖其它module,app指程序第一次或者是必须出现的模块
+    implementation project(':mainactivity')
+    implementation project(':utils')
+    implementation project(':Timetable')
+
+    //BmobSMS_V1,这里面有很多gson,okhttp包导致冲突
+    implementation files('libs/bmob-sms-1.0.1.jar')
+}

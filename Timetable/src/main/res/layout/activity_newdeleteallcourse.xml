@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    >
+
+
+    <Button
+        android:id="@+id/delete_allAtNewDeleteAllCourse"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_trash"
+        android:drawableStart="@drawable/ic_trash"
+        android:gravity="start|center_vertical"
+        android:textColor="#FF5991"
+        android:text="@string/delete_all_classes"
+        android:textSize="22sp"
+        android:layout_centerInParent="true"
+        />
+
+
+</RelativeLayout>
